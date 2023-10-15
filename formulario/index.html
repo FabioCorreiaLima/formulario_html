@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="imagen"> <!--class imagen para modificações-->
+            <img src="img/undraw_reminder_re_fe15.svg" alt="imagen">
+        </div>
+            <div class="form"> <!--class para modificações no formulario-->
+                <form action="Formulario" method="post">
+                    <div class="cabecalho">
+                        <div class="titulo">
+                            <h1>Preferências Esportivas</h1>
+                        </div>
+                        <div class="sub-titulo">
+                            <h4>Informe Sexo</h4>
+                        </div>
+                        <div class="radio">
+                            <input type=radio name="sexo" id="feminino" value="feminino"><label for="feminino">Feminino</label>
+                            <input type=radio name="sexo" id="masculino" value="masculino"><label for="masculino">Masculino</label>
+                            <input type="radio" name="sexo" id="nd" value="nd"><label for="nd">N/D</label>
+                        </div>
+                        <div class="sub-titulo">
+                            <h4>Estado civil</h4>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="es_civil" id="c" value="c">
+                            <label for="c"> Casado</label>
+                            <input type="radio" name="es_civil" id="s" value="s">
+                            <label for="s"> Solteiro</label>
+                            <input type="radio" name="es_civil" id="d" value="d">
+                            <label for="d"> Divorciado</label>
+                            <input type="radio" name="es_civil" id="v" value="v">
+                            <label for="v"> Viuvo</label>
+                        </div>
+                        <div class="sub-titulo">
+                            <h4>Faixa etária</h4>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="faixa" id="0-10" value="10-20"><label for="0-10"> 0-10</label>
+                            <input type="radio" name="faixa" id="10-20" value="10-20"><label for="10-20"> 10-20</label>
+                            <input type="radio" name="faixa" id="20-30" value="20-30"><label for="20-30"> 20-30</label>
+                            <input type="radio" name="faixa" id="30-40" value="30-40"><label for="30-40"> 30-40</label>
+                            <input type="radio" name="faixa" id="40-50" value="40-50"><label for="40-50"> 40-50</label>
+                            <input type="radio" name="faixa" id="50-60" value="50-60"><label for="10-20"> 50-60</label>
+                            <input type="radio" name="faixa" id="60-70" value="60-70"><label for="60-70"> 60-70</label>
+                            <input type="radio" name="faixa" id="70-80" value="70-80"><label for="70-80"> 70-80</label>
+                        </div>
+                        <div class="sub-titulo">
+                            <h4>Selecione Esporte</h4>
+                        </div>
+                        <div class="radio"> <!--Div com inputs para esportes-->
+                            <input type="radio" name="esport" id="fut"><label for="fut"> Futebol</label>
+                            <input type="radio" name="esport" id="volei"><label for="volei"> Volei</label>
+                            <input type="radio" name="esport" id="bas"><label for="bas"> Basquete</label>
+                            <input type="radio" name="esport" id="tenis"><label for="tenis"> Tenis</label>
+                            <input type="radio" name="esport" id="f"><label for="f"> F1</label>
+                        </div>
+                        
+                        <div class="sub-titulo">
+                            <h4>Faça um comentario</h4>
+                            <!--Caixa para comentario-->
+                            <textarea name="coment" id="coment" style="width:26em ;" rows="5"></textarea>
+                        </div>
+
+                        <div class="botao"> <!--Botao para enviar o formulario-->
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                            </div>
+                        </div>
+                        <br>
+                        
+                    </div>
+                </form>
+
+            </div>
+    </div>
+    
+</body>
+</html>
